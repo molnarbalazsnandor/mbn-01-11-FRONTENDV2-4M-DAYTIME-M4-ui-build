@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary: #f8f7f3;
+$secondary: #1a24fb;
+
+body{
+  background-color: #f8f7f3;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* font-family: 'Overpass', sans-serif; */
+
+header{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #1a24fb;
+  padding: 0 10px 0 10px;
+  text-transform: uppercase;
+  color:#f8f7f3;
+  p{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+  }
+
+}
+
+.cards-container{
+  max-width: 1280px;
+  display: flex;
+  gap: 100px 20px;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  margin: 60px auto;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#1a24fb;
+
+
+  .card{
+    position: relative;
+    width:100%;
+    max-width: 350px;
+    min-height: 300px;
+    background-color: #f8f7f3;
+    border: 1px #1a24fb solid;
+    padding: 40px;
+
+
+    .number{ 
+      width:40px;
+      height: 40px;
+      font-size: 24px;
+      position: absolute;
+      top: 0px;
+      right:-10px;
+      font-weight: 700;
+    }
+    .sub{
+      text-transform: uppercase;
+      font-family: 'Overpass', sans-serif;
+      
+    }
+    .title{
+      font-size: 36px;
+      font-weight: 700;
+      padding: 10px 0 20px 0;
+    }
+    .text{ 
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Overpass', sans-serif;
+    }
+
+    .button{
+      font-size: 14px;
+      width: 100%;
+      height: 18px;
+      position: absolute;
+      left: 0px;
+      bottom:-30px;
+      background-color: #f8f7f3;
+      color:#1a24fb;
+      border: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .button:hover{
+      background-color:#1a24fb;
+      color:#f8f7f3;
+    }
+
+  }
+
+}
