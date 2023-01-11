@@ -99,6 +99,7 @@ header p {
   font-size: 36px;
   font-weight: 700;
   padding: 10px 0 20px 0;
+  min-height: 120px;
 }
 .cards-container .card .text {
   font-size: 16px;

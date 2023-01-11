@@ -6,17 +6,17 @@ const books = {
     {
       title: "Breakfast of Champions",
       sub: "Kurt Vonnegut",
-      text: "In Breakfast of Champions, one of Kurt Vonnegut`s most beloved characters, the aging writer Kilgore Trout, finds to his horror that a Midwest car dealer is taking his fiction as truth. What follows is murderously funny satire, as Vonnegut looks at war, sex, racism, success, politics, and...",
+      text: "In Breakfast of Champions, one of Kurt Vonnegut's most beloved characters, the aging writer Kilgore Trout, finds to his horror that a Midwest car dealer is taking his fiction as truth. What follows is murderously funny satire, as Vonnegut looks at war, sex, racism, success, politics, and...",
     },
     {
       title: "Known Unknowns",
       sub: "Charles Saatchi",
-      text: "In his latest book, Known Unknowns, Charles Saatchi provides fascinating insights into some of the world`s lesser-known but truly extraordinary historical events. Illustrated with arresting photographs, Saatchi`s 100 essays tackle subjects as varied as the tattoo habits of Russian criminals... perspective on contemporary culture.",
+      text: "In his latest book, Known Unknowns, Charles Saatchi provides fascinating insights into some of the world's lesser-known but truly extraordinary historical events. Illustrated with arresting photographs, Saatchi's 100 essays tackle subjects as varied as the tattoo habits of Russian criminals... perspective on contemporary culture.",
     },
     {
       title: "Empire V",
       sub: "Victor Pelevin",
-      text: "Roman thought he`d found the perfect opportunity to rebel. He may have been wrong.	He awakens strapped to a set of parallel bars in a richly appointed sitting room, and begins a conversation with a masked man which will change his life. His world has been a facade - one which the ...",
+      text: "Roman thought he'd found the perfect opportunity to rebel. He may have been wrong.	He awakens strapped to a set of parallel bars in a richly appointed sitting room, and begins a conversation with a masked man which will change his life. His world has been a facade - one which the ...",
     },
     {
       title: "The Master and Margarita",
@@ -36,7 +36,7 @@ const books = {
     {
       title: "To the End of the Land",
       sub: "David Grossman",
-      text: "From one of Israel`s most acclaimed writers comes a novel of extraordinary power about family life—the greatest human drama—and the cost of war.Ora, a middle-aged Israeli mother, is on the verge of celebrating her son Ofer`s release from army service when he returns to the front for a major...",
+      text: "From one of Israel's most acclaimed writers comes a novel of extraordinary power about family life—the greatest human drama—and the cost of war.Ora, a middle-aged Israeli mother, is on the verge of celebrating her son Ofer's release from army service when he returns to the front for a major...",
     },
     {
       title: "One Hundred Years of Solitude",
@@ -46,7 +46,7 @@ const books = {
     {
       title: "Beautiful World, Where Are You",
       sub: "Sally Rooney",
-      text: "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he`d like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up and slips back into flirting with Simon, a man she has known since childhood. Alice, Felix, Eileen, and...",
+      text: "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he'd like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up and slips back into flirting with Simon, a man she has known since childhood. Alice, Felix, Eileen, and...",
     },
     {
       title: "Rendezvous with Rama",
